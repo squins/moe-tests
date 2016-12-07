@@ -6,15 +6,15 @@ import org.moe.natj.general.ptr.Ptr;
 import org.moe.natj.general.ptr.impl.PtrFactory;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.NSObject;
-import ios.coregraphics.c.CoreGraphics;
-import ios.coregraphics.struct.CGRect;
-import ios.foundation.*;
-import ios.foundation.struct.NSRange;
-import ios.uikit.*;
-import ios.uikit.enums.UITableViewCellStyle;
-import ios.uikit.enums.UITableViewStyle;
-import ios.uikit.protocol.UISearchBarDelegate;
+import apple.NSObject;
+import apple.coregraphics.c.CoreGraphics;
+import apple.coregraphics.struct.CGRect;
+import apple.foundation.*;
+import apple.foundation.struct.NSRange;
+import apple.uikit.*;
+import apple.uikit.enums.UITableViewCellStyle;
+import apple.uikit.enums.UITableViewStyle;
+import apple.uikit.protocol.UISearchBarDelegate;
 
 public class UISearchBarViewController extends UITableViewController implements UISearchBarDelegate {
 

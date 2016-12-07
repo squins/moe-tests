@@ -1,6 +1,6 @@
 package org.moe.xosrt.binding.test.loadingTest;
 
-import ios.foundation.NSString;
+import apple.foundation.NSString;
 import org.moe.xosrt.binding.test.loadingTest.testClasses.HeavyObject;
 import org.junit.Test;
 

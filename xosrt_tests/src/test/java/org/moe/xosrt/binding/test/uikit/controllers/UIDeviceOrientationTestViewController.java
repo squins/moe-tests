@@ -4,9 +4,9 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.coregraphics.c.CoreGraphics;
-import ios.uikit.*;
-import ios.uikit.enums.UIDeviceOrientation;
+import apple.coregraphics.c.CoreGraphics;
+import apple.uikit.*;
+import apple.uikit.enums.UIDeviceOrientation;
 
 public class UIDeviceOrientationTestViewController extends UIViewController {
 

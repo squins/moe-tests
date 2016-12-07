@@ -5,8 +5,8 @@ import org.moe.natj.general.ptr.impl.PtrFactory;
 
 import static org.junit.Assert.*;
 
-import ios.foundation.*;
-import ios.foundation.enums.NSComparisonResult;
+import apple.foundation.*;
+import apple.foundation.enums.NSComparisonResult;
 
 import org.junit.Test;
 

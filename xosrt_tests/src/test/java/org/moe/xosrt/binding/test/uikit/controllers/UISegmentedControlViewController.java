@@ -7,12 +7,12 @@ import org.moe.natj.general.ptr.impl.PtrFactory;
 import org.moe.natj.objc.SEL;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.NSObject;
-import ios.coregraphics.c.CoreGraphics;
-import ios.coregraphics.struct.CGRect;
-import ios.foundation.*;
-import ios.uikit.*;
-import ios.uikit.enums.Enums;
+import apple.NSObject;
+import apple.coregraphics.c.CoreGraphics;
+import apple.coregraphics.struct.CGRect;
+import apple.foundation.*;
+import apple.uikit.*;
+import apple.uikit.enums.Enums;
 
 public class UISegmentedControlViewController extends UIViewController {
 

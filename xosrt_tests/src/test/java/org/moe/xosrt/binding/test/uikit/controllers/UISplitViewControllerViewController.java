@@ -9,14 +9,14 @@ import org.moe.natj.objc.ann.Selector;
 import org.moe.xosrt.binding.test.uikit.testhelpers.UISplitDetailViewController;
 import org.moe.xosrt.binding.test.uikit.testhelpers.UISplitRightViewController;
 
-import ios.NSObject;
-import ios.coregraphics.c.CoreGraphics;
-import ios.coregraphics.struct.CGRect;
-import ios.foundation.*;
-import ios.uikit.*;
-import ios.uikit.enums.UITableViewCellStyle;
-import ios.uikit.enums.UITableViewStyle;
-import ios.uikit.protocol.UISplitViewControllerDelegate;
+import apple.NSObject;
+import apple.coregraphics.c.CoreGraphics;
+import apple.coregraphics.struct.CGRect;
+import apple.foundation.*;
+import apple.uikit.*;
+import apple.uikit.enums.UITableViewCellStyle;
+import apple.uikit.enums.UITableViewStyle;
+import apple.uikit.protocol.UISplitViewControllerDelegate;
 
 public class UISplitViewControllerViewController extends UITableViewController implements UISplitViewControllerDelegate {
 

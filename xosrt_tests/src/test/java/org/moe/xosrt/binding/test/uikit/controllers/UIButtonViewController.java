@@ -4,10 +4,10 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.coregraphics.c.CoreGraphics;
-import ios.uikit.*;
-import ios.uikit.enums.UIButtonType;
-import ios.uikit.enums.UIControlState;
+import apple.coregraphics.c.CoreGraphics;
+import apple.uikit.*;
+import apple.uikit.enums.UIButtonType;
+import apple.uikit.enums.UIControlState;
 
 public class UIButtonViewController extends UIViewController {
 

@@ -7,9 +7,9 @@ import org.moe.natj.general.ptr.impl.PtrFactory;
 import org.moe.natj.objc.SEL;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.coregraphics.c.CoreGraphics;
-import ios.foundation.*;
-import ios.uikit.*;
+import apple.coregraphics.c.CoreGraphics;
+import apple.foundation.*;
+import apple.uikit.*;
 
 public class UIImageViewAnimationViewController extends UIViewController {
     static {

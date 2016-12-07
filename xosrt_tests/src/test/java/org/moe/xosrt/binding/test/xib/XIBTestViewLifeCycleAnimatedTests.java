@@ -4,14 +4,14 @@ import org.moe.xosrt.binding.test.xib.controllers.XIBTestLifeCycleViewController
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import ios.foundation.NSMutableArray;
-import ios.foundation.NSOperationQueue;
-import ios.uikit.UIApplication;
-import ios.uikit.UIColor;
-import ios.uikit.UINavigationController;
-import ios.uikit.UIScreen;
-import ios.uikit.UIWindow;
-import ios.uikit.protocol.UIApplicationDelegate;
+import apple.foundation.NSMutableArray;
+import apple.foundation.NSOperationQueue;
+import apple.uikit.UIApplication;
+import apple.uikit.UIColor;
+import apple.uikit.UINavigationController;
+import apple.uikit.UIScreen;
+import apple.uikit.UIWindow;
+import apple.uikit.protocol.UIApplicationDelegate;
 import tools.ConditionWait;
 
 import static org.junit.Assert.assertTrue;

@@ -6,11 +6,11 @@ import org.moe.natj.objc.ann.Selector;
 
 import org.moe.xosrt.binding.test.xib.testhelpers.View1;
 
-import ios.NSObject;
-import ios.coregraphics.c.CoreGraphics;
-import ios.coregraphics.struct.CGRect;
-import ios.foundation.*;
-import ios.uikit.*;
+import apple.NSObject;
+import apple.coregraphics.c.CoreGraphics;
+import apple.coregraphics.struct.CGRect;
+import apple.foundation.*;
+import apple.uikit.*;
 
 public class XIBTestAwake1ViewController extends UIViewController {
 

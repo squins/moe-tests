@@ -4,17 +4,17 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.NSObject;
-import ios.coregraphics.c.CoreGraphics;
-import ios.coregraphics.struct.CGRect;
-import ios.foundation.*;
-import ios.foundation.struct.NSRange;
-import ios.uikit.*;
-import ios.uikit.enums.NSTextAlignment;
-import ios.uikit.enums.UIKeyboardType;
-import ios.uikit.enums.UITextAlignment;
-import ios.uikit.enums.UITextBorderStyle;
-import ios.uikit.protocol.UITextFieldDelegate;
+import apple.NSObject;
+import apple.coregraphics.c.CoreGraphics;
+import apple.coregraphics.struct.CGRect;
+import apple.foundation.*;
+import apple.foundation.struct.NSRange;
+import apple.uikit.*;
+import apple.uikit.enums.NSTextAlignment;
+import apple.uikit.enums.UIKeyboardType;
+import apple.uikit.enums.UITextAlignment;
+import apple.uikit.enums.UITextBorderStyle;
+import apple.uikit.protocol.UITextFieldDelegate;
 
 public class UITextFieldViewController extends UIViewController implements UITextFieldDelegate {
 

@@ -6,16 +6,16 @@ import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.SEL;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.coregraphics.c.CoreGraphics;
-import ios.foundation.NSMutableArray;
-import ios.foundation.NSString;
-import ios.uikit.UIActionSheet;
-import ios.uikit.UIColor;
-import ios.uikit.UILabel;
-import ios.uikit.UIScreen;
-import ios.uikit.UIView;
-import ios.uikit.UIViewController;
-import ios.uikit.protocol.UIActionSheetDelegate;
+import apple.coregraphics.c.CoreGraphics;
+import apple.foundation.NSMutableArray;
+import apple.foundation.NSString;
+import apple.uikit.UIActionSheet;
+import apple.uikit.UIColor;
+import apple.uikit.UILabel;
+import apple.uikit.UIScreen;
+import apple.uikit.UIView;
+import apple.uikit.UIViewController;
+import apple.uikit.protocol.UIActionSheetDelegate;
 
 public class UIActionSheetTestViewController extends UIViewController implements UIActionSheetDelegate {
 

@@ -9,13 +9,13 @@ import org.moe.natj.objc.ann.Selector;
 
 import org.moe.xosrt.binding.test.uikit.testhelpers.UINavigationBarTestDelegate;
 
-import ios.NSObject;
-import ios.coregraphics.c.CoreGraphics;
-import ios.coregraphics.struct.CGRect;
-import ios.foundation.*;
-import ios.uikit.*;
-import ios.uikit.enums.UIBarButtonItemStyle;
-import ios.uikit.enums.UIBarStyle;
+import apple.NSObject;
+import apple.coregraphics.c.CoreGraphics;
+import apple.coregraphics.struct.CGRect;
+import apple.foundation.*;
+import apple.uikit.*;
+import apple.uikit.enums.UIBarButtonItemStyle;
+import apple.uikit.enums.UIBarStyle;
 
 public class UINavigationBarViewController extends UIViewController {
 

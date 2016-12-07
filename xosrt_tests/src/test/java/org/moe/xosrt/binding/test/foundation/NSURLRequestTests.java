@@ -1,8 +1,8 @@
 package org.moe.xosrt.binding.test.foundation;
 
 import static org.junit.Assert.*;
-import ios.foundation.NSURL;
-import ios.foundation.NSURLRequest;
+import apple.foundation.NSURL;
+import apple.foundation.NSURLRequest;
 
 import org.junit.Test;
 

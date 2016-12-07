@@ -5,7 +5,7 @@ import org.moe.natj.general.ptr.Ptr;
 import org.moe.natj.general.ptr.impl.PtrFactory;
 
 import static org.junit.Assert.*;
-import ios.foundation.*;
+import apple.foundation.*;
 
 import org.moe.xosrt.binding.test.foundation.Utils.XOSTest;
 import org.junit.Test;

@@ -6,15 +6,15 @@ import org.moe.natj.objc.SEL;
 import org.moe.natj.objc.ann.Selector;
 import org.moe.xosrt.binding.test.uikit.testhelpers.CustomControl;
 
-import ios.coregraphics.c.CoreGraphics;
-import ios.uikit.UIButton;
-import ios.uikit.UIColor;
-import ios.uikit.UILabel;
-import ios.uikit.UIView;
-import ios.uikit.UIViewController;
-import ios.uikit.enums.UIButtonType;
-import ios.uikit.enums.UIControlEvents;
-import ios.uikit.enums.UIControlState;
+import apple.coregraphics.c.CoreGraphics;
+import apple.uikit.UIButton;
+import apple.uikit.UIColor;
+import apple.uikit.UILabel;
+import apple.uikit.UIView;
+import apple.uikit.UIViewController;
+import apple.uikit.enums.UIButtonType;
+import apple.uikit.enums.UIControlEvents;
+import apple.uikit.enums.UIControlState;
 
 public class UICustomControlsViewController extends UIViewController {
 

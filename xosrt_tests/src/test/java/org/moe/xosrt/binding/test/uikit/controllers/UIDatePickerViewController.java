@@ -5,13 +5,13 @@ import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.SEL;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.coregraphics.c.CoreGraphics;
-import ios.foundation.*;
-import ios.foundation.enums.NSDateFormatterStyle;
-import ios.uikit.*;
-import ios.uikit.enums.UIControlEvents;
-import ios.uikit.enums.UIDatePickerMode;
-import ios.uikit.enums.UITextAlignment;
+import apple.coregraphics.c.CoreGraphics;
+import apple.foundation.*;
+import apple.foundation.enums.NSDateFormatterStyle;
+import apple.uikit.*;
+import apple.uikit.enums.UIControlEvents;
+import apple.uikit.enums.UIDatePickerMode;
+import apple.uikit.enums.UITextAlignment;
 
 public class UIDatePickerViewController extends UIViewController {
 

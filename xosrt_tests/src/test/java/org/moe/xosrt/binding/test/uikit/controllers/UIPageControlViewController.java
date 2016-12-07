@@ -7,13 +7,13 @@ import org.moe.natj.general.ptr.impl.PtrFactory;
 import org.moe.natj.objc.SEL;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.NSObject;
-import ios.coregraphics.c.CoreGraphics;
-import ios.coregraphics.struct.CGRect;
-import ios.coregraphics.struct.CGSize;
-import ios.foundation.*;
-import ios.uikit.*;
-import ios.uikit.enums.UIControlEvents;
+import apple.NSObject;
+import apple.coregraphics.c.CoreGraphics;
+import apple.coregraphics.struct.CGRect;
+import apple.coregraphics.struct.CGSize;
+import apple.foundation.*;
+import apple.uikit.*;
+import apple.uikit.enums.UIControlEvents;
 
 public class UIPageControlViewController extends UIViewController {
 

@@ -4,13 +4,13 @@ import org.moe.xosrt.binding.test.xib.controllers.XIBTestTableViewSearchBarNavig
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import ios.foundation.NSOperationQueue;
-import ios.uikit.UIApplication;
-import ios.uikit.UINavigationController;
-import ios.uikit.UIScreen;
-import ios.uikit.UIWindow;
-import ios.uikit.enums.UIBarStyle;
-import ios.uikit.protocol.UIApplicationDelegate;
+import apple.foundation.NSOperationQueue;
+import apple.uikit.UIApplication;
+import apple.uikit.UINavigationController;
+import apple.uikit.UIScreen;
+import apple.uikit.UIWindow;
+import apple.uikit.enums.UIBarStyle;
+import apple.uikit.protocol.UIApplicationDelegate;
 import tools.ConditionWait;
 
 import static org.junit.Assert.assertTrue;

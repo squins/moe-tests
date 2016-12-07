@@ -4,7 +4,7 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.NSObject;
+import apple.NSObject;
 
 public class TimerTestTarget extends NSObject {
     public volatile boolean passed = false;

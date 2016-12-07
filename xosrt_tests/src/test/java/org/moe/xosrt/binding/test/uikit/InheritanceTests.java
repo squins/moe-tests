@@ -6,8 +6,8 @@ import org.moe.xosrt.binding.test.uikit.testhelpers.Subclass;
 import org.moe.xosrt.binding.test.uikit.testhelpers.SuperClass;
 import org.junit.Test;
 
-import ios.foundation.NSMutableArray;
-import ios.foundation.NSString;
+import apple.foundation.NSMutableArray;
+import apple.foundation.NSString;
 
 public class InheritanceTests {
 

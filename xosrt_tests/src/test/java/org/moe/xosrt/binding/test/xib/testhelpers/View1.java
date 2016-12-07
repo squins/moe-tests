@@ -4,7 +4,7 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.uikit.UIView;
+import apple.uikit.UIView;
 
 public class View1 extends UIView {
 

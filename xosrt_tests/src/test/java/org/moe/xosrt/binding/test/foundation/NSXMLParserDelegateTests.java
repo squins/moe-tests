@@ -2,8 +2,8 @@ package org.moe.xosrt.binding.test.foundation;
 
 import static org.junit.Assert.*;
 
-import ios.foundation.*;
-import ios.foundation.enums.Enums;
+import apple.foundation.*;
+import apple.foundation.enums.Enums;
 
 import org.moe.xosrt.binding.test.foundation.Utils.XMLParserDelegate;
 import org.junit.BeforeClass;

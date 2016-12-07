@@ -4,13 +4,13 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.NSObject;
-import ios.coregraphics.c.CoreGraphics;
-import ios.coregraphics.struct.CGRect;
-import ios.foundation.*;
-import ios.uikit.*;
-import ios.uikit.enums.UIInterfaceOrientation;
-import ios.uikit.enums.UIUserInterfaceIdiom;
+import apple.NSObject;
+import apple.coregraphics.c.CoreGraphics;
+import apple.coregraphics.struct.CGRect;
+import apple.foundation.*;
+import apple.uikit.*;
+import apple.uikit.enums.UIInterfaceOrientation;
+import apple.uikit.enums.UIUserInterfaceIdiom;
 
 public class XIBTestTabbedAppSecondViewController extends UIViewController {
 

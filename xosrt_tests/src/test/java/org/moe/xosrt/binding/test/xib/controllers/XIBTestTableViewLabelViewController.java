@@ -7,12 +7,12 @@ import org.moe.natj.general.ptr.impl.PtrFactory;
 import org.moe.natj.objc.SEL;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.coregraphics.struct.CGPoint;
-import ios.foundation.*;
-import ios.uikit.*;
-import ios.uikit.enums.UITableViewCellStyle;
-import ios.uikit.protocol.UITableViewDataSource;
-import ios.uikit.protocol.UITableViewDelegate;
+import apple.coregraphics.struct.CGPoint;
+import apple.foundation.*;
+import apple.uikit.*;
+import apple.uikit.enums.UITableViewCellStyle;
+import apple.uikit.protocol.UITableViewDataSource;
+import apple.uikit.protocol.UITableViewDelegate;
 
 public class XIBTestTableViewLabelViewController extends UIViewController implements UITableViewDelegate, UITableViewDataSource {
 

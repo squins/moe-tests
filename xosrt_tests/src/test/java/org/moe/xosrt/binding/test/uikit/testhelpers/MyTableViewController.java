@@ -4,12 +4,12 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.foundation.NSIndexPath;
-import ios.uikit.UITableView;
-import ios.uikit.UITableViewCell;
-import ios.uikit.UITableViewController;
-import ios.uikit.enums.UITableViewCellStyle;
-import ios.uikit.protocol.UITableViewDataSource;
+import apple.foundation.NSIndexPath;
+import apple.uikit.UITableView;
+import apple.uikit.UITableViewCell;
+import apple.uikit.UITableViewController;
+import apple.uikit.enums.UITableViewCellStyle;
+import apple.uikit.protocol.UITableViewDataSource;
 
 public class MyTableViewController extends UITableViewController implements UITableViewDataSource {
 

@@ -4,11 +4,11 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.coregraphics.struct.CGRect;
-import ios.foundation.NSMutableArray;
-import ios.foundation.NSString;
-import ios.uikit.UIView;
-import ios.uikit.UIWindow;
+import apple.coregraphics.struct.CGRect;
+import apple.foundation.NSMutableArray;
+import apple.foundation.NSString;
+import apple.uikit.UIView;
+import apple.uikit.UIWindow;
 
 
 public class ViewTest1 extends UIView {

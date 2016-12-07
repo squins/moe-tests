@@ -5,10 +5,10 @@ import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.SEL;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.coregraphics.c.CoreGraphics;
-import ios.uikit.*;
-import ios.uikit.enums.UIBarButtonItemStyle;
-import ios.uikit.enums.UIBarButtonSystemItem;
+import apple.coregraphics.c.CoreGraphics;
+import apple.uikit.*;
+import apple.uikit.enums.UIBarButtonItemStyle;
+import apple.uikit.enums.UIBarButtonSystemItem;
 
 public class UIBarButtonItemViewController extends UIViewController {
 

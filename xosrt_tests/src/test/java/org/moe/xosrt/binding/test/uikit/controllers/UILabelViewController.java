@@ -5,11 +5,11 @@ import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.SEL;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.coregraphics.c.CoreGraphics;
-import ios.uikit.*;
-import ios.uikit.enums.NSTextAlignment;
-import ios.uikit.enums.UILineBreakMode;
-import ios.uikit.enums.UITextAlignment;
+import apple.coregraphics.c.CoreGraphics;
+import apple.uikit.*;
+import apple.uikit.enums.NSTextAlignment;
+import apple.uikit.enums.UILineBreakMode;
+import apple.uikit.enums.UITextAlignment;
 
 public class UILabelViewController extends UIViewController {
 

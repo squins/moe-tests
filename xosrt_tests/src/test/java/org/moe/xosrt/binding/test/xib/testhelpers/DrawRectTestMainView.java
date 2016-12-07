@@ -4,14 +4,14 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.coregraphics.c.CoreGraphics;
-import ios.coregraphics.opaque.CGContextRef;
-import ios.coregraphics.struct.CGRect;
-import ios.foundation.NSMutableArray;
-import ios.foundation.c.Foundation;
-import ios.uikit.UIColor;
-import ios.uikit.UIView;
-import ios.uikit.c.UIKit;
+import apple.coregraphics.c.CoreGraphics;
+import apple.coregraphics.opaque.CGContextRef;
+import apple.coregraphics.struct.CGRect;
+import apple.foundation.NSMutableArray;
+import apple.foundation.c.Foundation;
+import apple.uikit.UIColor;
+import apple.uikit.UIView;
+import apple.uikit.c.UIKit;
 
 public class DrawRectTestMainView extends UIView {
 

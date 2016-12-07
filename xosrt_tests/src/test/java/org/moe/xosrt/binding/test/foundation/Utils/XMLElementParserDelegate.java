@@ -4,15 +4,15 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.foundation.NSData;
-import ios.foundation.NSDictionary;
-import ios.foundation.NSError;
-import ios.NSObject;
-import ios.foundation.NSString;
+import apple.foundation.NSData;
+import apple.foundation.NSDictionary;
+import apple.foundation.NSError;
+import apple.NSObject;
+import apple.foundation.NSString;
 
 import org.moe.xosrt.binding.test.foundation.Utils.XMLParser.XMLElement;
-import ios.foundation.NSXMLParser;
-import ios.foundation.protocol.NSXMLParserDelegate;
+import apple.foundation.NSXMLParser;
+import apple.foundation.protocol.NSXMLParserDelegate;
 
 public class XMLElementParserDelegate extends NSObject implements NSXMLParserDelegate {
 

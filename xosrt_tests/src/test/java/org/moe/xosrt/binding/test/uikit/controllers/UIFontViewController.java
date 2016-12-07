@@ -4,8 +4,8 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.coregraphics.c.CoreGraphics;
-import ios.uikit.*;
+import apple.coregraphics.c.CoreGraphics;
+import apple.uikit.*;
 
 public class UIFontViewController extends UIViewController {
 

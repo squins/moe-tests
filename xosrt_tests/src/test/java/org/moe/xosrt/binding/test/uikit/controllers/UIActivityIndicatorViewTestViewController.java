@@ -4,12 +4,12 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.coregraphics.c.CoreGraphics;
-import ios.uikit.UIActivityIndicatorView;
-import ios.uikit.UIColor;
-import ios.uikit.UIScreen;
-import ios.uikit.UIView;
-import ios.uikit.UIViewController;
+import apple.coregraphics.c.CoreGraphics;
+import apple.uikit.UIActivityIndicatorView;
+import apple.uikit.UIColor;
+import apple.uikit.UIScreen;
+import apple.uikit.UIView;
+import apple.uikit.UIViewController;
 
 
 public class UIActivityIndicatorViewTestViewController extends UIViewController {

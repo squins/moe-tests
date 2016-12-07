@@ -4,11 +4,11 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.coregraphics.c.CoreGraphics;
-import ios.coregraphics.struct.CGPoint;
-import ios.coregraphics.struct.CGRect;
-import ios.uikit.UIImage;
-import ios.uikit.UIView;
+import apple.coregraphics.c.CoreGraphics;
+import apple.coregraphics.struct.CGPoint;
+import apple.coregraphics.struct.CGRect;
+import apple.uikit.UIImage;
+import apple.uikit.UIView;
 
 
 public class UserView extends UIView {

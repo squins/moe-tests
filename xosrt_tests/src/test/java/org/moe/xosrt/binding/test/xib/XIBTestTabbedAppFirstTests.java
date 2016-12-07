@@ -1,11 +1,11 @@
 package org.moe.xosrt.binding.test.xib;
 
 import org.moe.xosrt.binding.test.xib.controllers.XIBTestTabbedAppFirstViewController;
-import ios.foundation.*;
-import ios.foundation.NSOperationQueue.Block_addOperationWithBlock;
-import ios.uikit.*;
-import ios.uikit.enums.UIUserInterfaceIdiom;
-import ios.uikit.protocol.UIApplicationDelegate;
+import apple.foundation.*;
+import apple.foundation.NSOperationQueue.Block_addOperationWithBlock;
+import apple.uikit.*;
+import apple.uikit.enums.UIUserInterfaceIdiom;
+import apple.uikit.protocol.UIApplicationDelegate;
 
 import org.moe.xosrt.binding.test.xib.controllers.XIBTestTabbedAppSecondViewController;
 import org.junit.BeforeClass;

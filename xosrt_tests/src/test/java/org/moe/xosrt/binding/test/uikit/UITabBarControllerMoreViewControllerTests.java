@@ -6,14 +6,14 @@ import org.moe.xosrt.binding.test.uikit.controllers.UISwitchViewController;
 import org.moe.xosrt.binding.test.uikit.testhelpers.SimpleViewController;
 import org.moe.xosrt.binding.test.uikit.testhelpers.TestAppDelegate;
 
-import ios.coregraphics.c.CoreGraphics;
-import ios.foundation.*;
-import ios.uikit.*;
-import ios.uikit.enums.UIButtonType;
-import ios.uikit.enums.UIControlEvents;
-import ios.uikit.enums.UIControlState;
-import ios.uikit.enums.UITabBarSystemItem;
-import ios.uikit.protocol.UIApplicationDelegate;
+import apple.coregraphics.c.CoreGraphics;
+import apple.foundation.*;
+import apple.uikit.*;
+import apple.uikit.enums.UIButtonType;
+import apple.uikit.enums.UIControlEvents;
+import apple.uikit.enums.UIControlState;
+import apple.uikit.enums.UITabBarSystemItem;
+import apple.uikit.protocol.UIApplicationDelegate;
 import org.junit.BeforeClass;
 import org.junit.Test;
 

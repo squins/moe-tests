@@ -4,10 +4,10 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.NSObject;
-import ios.uikit.UINavigationBar;
-import ios.uikit.UINavigationItem;
-import ios.uikit.protocol.UINavigationBarDelegate;
+import apple.NSObject;
+import apple.uikit.UINavigationBar;
+import apple.uikit.UINavigationItem;
+import apple.uikit.protocol.UINavigationBarDelegate;
 
 public class UINavigationBarTestDelegate extends NSObject implements UINavigationBarDelegate {
     static {

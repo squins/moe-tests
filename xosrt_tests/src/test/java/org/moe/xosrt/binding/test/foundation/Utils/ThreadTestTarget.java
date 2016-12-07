@@ -5,20 +5,20 @@ import org.moe.natj.general.Pointer;
 import org.moe.natj.general.ann.NInt;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.foundation.NSCachedURLResponse;
-import ios.foundation.NSInputStream;
-import ios.foundation.NSMutableData;
-import ios.foundation.NSMutableURLRequest;
-import ios.NSObject;
-import ios.foundation.NSString;
-import ios.foundation.NSURL;
-import ios.foundation.NSURLAuthenticationChallenge;
-import ios.foundation.NSURLConnection;
-import ios.foundation.NSURLProtectionSpace;
-import ios.foundation.NSURLRequest;
-import ios.foundation.NSURLResponse;
-import ios.foundation.enums.NSURLRequestCachePolicy;
-import ios.foundation.protocol.NSURLConnectionDataDelegate;
+import apple.foundation.NSCachedURLResponse;
+import apple.foundation.NSInputStream;
+import apple.foundation.NSMutableData;
+import apple.foundation.NSMutableURLRequest;
+import apple.NSObject;
+import apple.foundation.NSString;
+import apple.foundation.NSURL;
+import apple.foundation.NSURLAuthenticationChallenge;
+import apple.foundation.NSURLConnection;
+import apple.foundation.NSURLProtectionSpace;
+import apple.foundation.NSURLRequest;
+import apple.foundation.NSURLResponse;
+import apple.foundation.enums.NSURLRequestCachePolicy;
+import apple.foundation.protocol.NSURLConnectionDataDelegate;
 
 public class ThreadTestTarget extends NSObject implements NSURLConnectionDataDelegate {
 
@@ -84,7 +84,7 @@ public class ThreadTestTarget extends NSObject implements NSURLConnectionDataDel
 
     @Override
     @Selector("connectionDidFinishLoading:")
-    public void connectionDidFinishLoading(ios.foundation.NSURLConnection connection) {
+    public void connectionDidFinishLoading(apple.foundation.NSURLConnection connection) {
         passed = receivedData != null;
         finish = true;
     }
@@ -101,8 +101,8 @@ public class ThreadTestTarget extends NSObject implements NSURLConnectionDataDel
 
     @Override
     @Selector("connection:didFailWithError:")
-    public void connectionDidFailWithError(ios.foundation.NSURLConnection connection,
-                                           ios.foundation.NSError error) {
+    public void connectionDidFailWithError(apple.foundation.NSURLConnection connection,
+                                           apple.foundation.NSError error) {
         theConnection.cancel();
         finish = true;
         passed = false;
@@ -125,8 +125,8 @@ public class ThreadTestTarget extends NSObject implements NSURLConnectionDataDel
 
     @Override
     @Selector("connection:didReceiveData:")
-    public void connectionDidReceiveData(ios.foundation.NSURLConnection connection,
-                                         ios.foundation.NSData data) {
+    public void connectionDidReceiveData(apple.foundation.NSURLConnection connection,
+                                         apple.foundation.NSData data) {
         receivedData.appendData(data);
     }
 

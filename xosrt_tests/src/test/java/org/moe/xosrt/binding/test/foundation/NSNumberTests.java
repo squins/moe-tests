@@ -1,11 +1,13 @@
 package org.moe.xosrt.binding.test.foundation;
 
-import static org.junit.Assert.*;
-import ios.foundation.NSNumber;
-import ios.foundation.enums.NSComparisonResult;
-
 import org.junit.Ignore;
 import org.junit.Test;
+
+import apple.foundation.NSNumber;
+import apple.foundation.enums.NSComparisonResult;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class NSNumberTests {
 

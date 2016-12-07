@@ -6,15 +6,15 @@ import org.moe.natj.general.ann.Generated;
 import org.moe.natj.general.ann.NInt;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.NSObject;
-import ios.coregraphics.c.CoreGraphics;
-import ios.coregraphics.struct.CGRect;
-import ios.coregraphics.struct.CGSize;
-import ios.foundation.*;
-import ios.uikit.*;
-import ios.uikit.enums.UITextAlignment;
-import ios.uikit.protocol.UIPickerViewDataSource;
-import ios.uikit.protocol.UIPickerViewDelegate;
+import apple.NSObject;
+import apple.coregraphics.c.CoreGraphics;
+import apple.coregraphics.struct.CGRect;
+import apple.coregraphics.struct.CGSize;
+import apple.foundation.*;
+import apple.uikit.*;
+import apple.uikit.enums.UITextAlignment;
+import apple.uikit.protocol.UIPickerViewDataSource;
+import apple.uikit.protocol.UIPickerViewDelegate;
 
 public class UIPickerViewViewController extends UIViewController implements UIPickerViewDelegate, UIPickerViewDataSource {
 

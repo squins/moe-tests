@@ -6,9 +6,9 @@ import org.moe.natj.general.ptr.impl.PtrFactory;
 import static org.junit.Assert.*;
 
 
-import ios.foundation.*;
-import ios.foundation.c.Foundation;
-import ios.foundation.struct.NSRange;
+import apple.foundation.*;
+import apple.foundation.c.Foundation;
+import apple.foundation.struct.NSRange;
 
 import org.moe.xosrt.binding.test.foundation.Utils.XOSTest;
 import org.junit.Test;

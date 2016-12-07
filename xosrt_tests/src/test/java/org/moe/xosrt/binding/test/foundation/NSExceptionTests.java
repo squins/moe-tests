@@ -1,7 +1,7 @@
 package org.moe.xosrt.binding.test.foundation;
 
 import static org.junit.Assert.*;
-import ios.foundation.*;
+import apple.foundation.*;
 
 import org.moe.xosrt.binding.test.foundation.Utils.XOSTest;
 import org.junit.Test;

@@ -1,17 +1,19 @@
 package org.moe.xosrt.binding.test.foundation;
 
-import java.lang.reflect.Method;
-
+import org.junit.Ignore;
+import org.junit.Test;
 import org.moe.natj.objc.SEL;
-
-import static org.junit.Assert.*;
-import ios.foundation.*;
-
 import org.moe.xosrt.binding.test.foundation.Utils.ErrorTestObject;
 import org.moe.xosrt.binding.test.foundation.Utils.TimerTestTarget;
 import org.moe.xosrt.binding.test.foundation.Utils.XOSTest;
-import org.junit.Ignore;
-import org.junit.Test;
+
+import java.lang.reflect.Method;
+
+import apple.foundation.NSMutableDictionary;
+import apple.foundation.NSString;
+import apple.foundation.NSTimer;
+
+import static org.junit.Assert.assertTrue;
 
 @Ignore
 //TODO: string ~#40: can't generate selector from pure java method

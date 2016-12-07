@@ -4,12 +4,12 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.coregraphics.c.CoreGraphics;
-import ios.foundation.NSURL;
-import ios.uikit.UIApplication;
-import ios.uikit.UIColor;
-import ios.uikit.UIView;
-import ios.uikit.UIViewController;
+import apple.coregraphics.c.CoreGraphics;
+import apple.foundation.NSURL;
+import apple.uikit.UIApplication;
+import apple.uikit.UIColor;
+import apple.uikit.UIView;
+import apple.uikit.UIViewController;
 
 public class UIApplicationViewController extends UIViewController {
 

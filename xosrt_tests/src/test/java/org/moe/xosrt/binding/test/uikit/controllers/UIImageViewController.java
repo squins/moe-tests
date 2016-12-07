@@ -7,11 +7,11 @@ import org.moe.natj.objc.ann.Selector;
 
 import org.moe.xosrt.binding.test.uikit.testhelpers.UserView;
 
-import ios.coregraphics.c.CoreGraphics;
-import ios.coregraphics.struct.CGSize;
-import ios.foundation.*;
-import ios.uikit.*;
-import ios.uikit.enums.UIImageOrientation;
+import apple.coregraphics.c.CoreGraphics;
+import apple.coregraphics.struct.CGSize;
+import apple.foundation.*;
+import apple.uikit.*;
+import apple.uikit.enums.UIImageOrientation;
 
 public class UIImageViewController extends UIViewController {
 

@@ -4,10 +4,10 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.foundation.*;
-import ios.uikit.*;
-import ios.uikit.enums.UIInterfaceOrientation;
-import ios.uikit.enums.UIUserInterfaceIdiom;
+import apple.foundation.*;
+import apple.uikit.*;
+import apple.uikit.enums.UIInterfaceOrientation;
+import apple.uikit.enums.UIUserInterfaceIdiom;
 
 public class XIBTestTabbedAppFirstViewController extends UIViewController {
 

@@ -1,7 +1,7 @@
 package org.moe.xosrt.binding.test.loadingTest.testClasses;
 
 import org.moe.natj.general.Pointer;
-import ios.NSObject;
+import apple.NSObject;
 import org.moe.natj.general.ann.Generated;
 import org.moe.natj.general.ann.Owned;
 import org.moe.natj.objc.ann.Selector;

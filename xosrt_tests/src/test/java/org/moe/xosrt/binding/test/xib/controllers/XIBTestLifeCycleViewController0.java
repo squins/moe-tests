@@ -5,12 +5,12 @@ import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.SEL;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.foundation.NSMutableArray;
-import ios.foundation.NSString;
-import ios.uikit.UIColor;
-import ios.uikit.UIScreen;
-import ios.uikit.UIView;
-import ios.uikit.UIViewController;
+import apple.foundation.NSMutableArray;
+import apple.foundation.NSString;
+import apple.uikit.UIColor;
+import apple.uikit.UIScreen;
+import apple.uikit.UIView;
+import apple.uikit.UIViewController;
 
 public class XIBTestLifeCycleViewController0 extends UIViewController {
 

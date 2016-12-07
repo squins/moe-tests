@@ -4,7 +4,7 @@ import org.moe.natj.general.ptr.impl.PtrFactory;
 
 import static org.junit.Assert.*;
 
-import ios.foundation.*;
+import apple.foundation.*;
 import org.junit.Test;
 
 public class NSValueTests {

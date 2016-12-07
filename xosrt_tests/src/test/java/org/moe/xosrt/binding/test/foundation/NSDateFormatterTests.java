@@ -1,8 +1,8 @@
 package org.moe.xosrt.binding.test.foundation;
 
 import static org.junit.Assert.*;
-import ios.foundation.*;
-import ios.foundation.enums.NSDateFormatterStyle;
+import apple.foundation.*;
+import apple.foundation.enums.NSDateFormatterStyle;
 
 import org.moe.xosrt.binding.test.foundation.Utils.XOSTest;
 import org.junit.Before;

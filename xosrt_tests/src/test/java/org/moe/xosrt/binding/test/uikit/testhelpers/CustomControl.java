@@ -5,10 +5,10 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.coregraphics.struct.CGRect;
-import ios.uikit.UIColor;
-import ios.uikit.UIControl;
-import ios.uikit.UILabel;
+import apple.coregraphics.struct.CGRect;
+import apple.uikit.UIColor;
+import apple.uikit.UIControl;
+import apple.uikit.UILabel;
 
 public class CustomControl extends UIControl {
 

@@ -5,12 +5,12 @@ import org.moe.natj.general.ptr.impl.PtrFactory;
 
 import static org.junit.Assert.*;
 
-import ios.foundation.NSArray;
-import ios.foundation.NSCountedSet;
-import ios.foundation.NSEnumerator;
-import ios.NSObject;
-import ios.foundation.NSSet;
-import ios.foundation.NSString;
+import apple.foundation.NSArray;
+import apple.foundation.NSCountedSet;
+import apple.foundation.NSEnumerator;
+import apple.NSObject;
+import apple.foundation.NSSet;
+import apple.foundation.NSString;
 
 import org.moe.xosrt.binding.test.foundation.Utils.XOSTest;
 import org.junit.Test;

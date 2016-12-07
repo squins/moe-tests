@@ -4,11 +4,11 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.foundation.NSError;
-import ios.foundation.NSFileManager;
-import ios.foundation.protocol.NSFileManagerDelegate;
-import ios.NSObject;
-import ios.foundation.NSURL;
+import apple.foundation.NSError;
+import apple.foundation.NSFileManager;
+import apple.foundation.protocol.NSFileManagerDelegate;
+import apple.NSObject;
+import apple.foundation.NSURL;
 
 public class TestFileManagerDelegate extends NSObject implements NSFileManagerDelegate {
 

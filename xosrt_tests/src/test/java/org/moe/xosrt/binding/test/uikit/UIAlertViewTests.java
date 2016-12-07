@@ -1,12 +1,12 @@
 package org.moe.xosrt.binding.test.uikit;
 
 import static org.junit.Assert.assertTrue;
-import ios.foundation.NSOperationQueue;
-import ios.foundation.NSOperationQueue.Block_addOperationWithBlock;
-import ios.uikit.UIApplication;
-import ios.uikit.UIScreen;
-import ios.uikit.UIWindow;
-import ios.uikit.protocol.UIApplicationDelegate;
+import apple.foundation.NSOperationQueue;
+import apple.foundation.NSOperationQueue.Block_addOperationWithBlock;
+import apple.uikit.UIApplication;
+import apple.uikit.UIScreen;
+import apple.uikit.UIWindow;
+import apple.uikit.protocol.UIApplicationDelegate;
 
 import org.moe.xosrt.binding.test.uikit.controllers.UIAlertViewTestViewController;
 import org.junit.BeforeClass;

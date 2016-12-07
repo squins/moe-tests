@@ -7,19 +7,19 @@ import org.moe.natj.general.ptr.impl.PtrFactory;
 import org.moe.natj.objc.SEL;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.NSObject;
-import ios.coregraphics.c.CoreGraphics;
-import ios.coregraphics.struct.CGPoint;
-import ios.coregraphics.struct.CGRect;
-import ios.foundation.*;
-import ios.foundation.c.Foundation;
-import ios.foundation.enums.Enums;
-import ios.foundation.struct.NSRange;
-import ios.uikit.*;
-import ios.uikit.enums.UITableViewCellStyle;
-import ios.uikit.protocol.UISearchBarDelegate;
-import ios.uikit.protocol.UITableViewDataSource;
-import ios.uikit.protocol.UITableViewDelegate;
+import apple.NSObject;
+import apple.coregraphics.c.CoreGraphics;
+import apple.coregraphics.struct.CGPoint;
+import apple.coregraphics.struct.CGRect;
+import apple.foundation.*;
+import apple.foundation.c.Foundation;
+import apple.foundation.enums.Enums;
+import apple.foundation.struct.NSRange;
+import apple.uikit.*;
+import apple.uikit.enums.UITableViewCellStyle;
+import apple.uikit.protocol.UISearchBarDelegate;
+import apple.uikit.protocol.UITableViewDataSource;
+import apple.uikit.protocol.UITableViewDelegate;
 
 public class XIBTestTableViewSearchBarNavigationControllerViewController extends UIViewController implements
         UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate {

@@ -4,8 +4,8 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.uikit.UILabel;
-import ios.uikit.UIViewController;
+import apple.uikit.UILabel;
+import apple.uikit.UIViewController;
 
 public class XIBTestNavigationControllerViewTwoController extends UIViewController {
 

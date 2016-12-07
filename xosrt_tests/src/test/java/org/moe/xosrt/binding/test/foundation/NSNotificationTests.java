@@ -1,10 +1,10 @@
 package org.moe.xosrt.binding.test.foundation;
 
 import static org.junit.Assert.*;
-import ios.NSObject;
-import ios.foundation.NSDictionary;
-import ios.foundation.NSNotification;
-import ios.foundation.NSString;
+import apple.NSObject;
+import apple.foundation.NSDictionary;
+import apple.foundation.NSNotification;
+import apple.foundation.NSString;
 
 import org.junit.Test;
 

@@ -1,14 +1,17 @@
 package org.moe.xosrt.binding.test.foundation;
 
+import org.junit.Test;
 import org.moe.natj.general.ptr.ConstPtr;
 import org.moe.natj.general.ptr.Ptr;
 import org.moe.natj.general.ptr.impl.PtrFactory;
-
-import static org.junit.Assert.*;
-import ios.foundation.*;
-
 import org.moe.xosrt.binding.test.foundation.Utils.XOSTest;
-import org.junit.Test;
+
+import apple.foundation.NSArray;
+import apple.foundation.NSEnumerator;
+import apple.foundation.NSMutableDictionary;
+import apple.foundation.NSString;
+
+import static org.junit.Assert.assertTrue;
 
 public class NSMutableDictionaryTests extends XOSTest {
 

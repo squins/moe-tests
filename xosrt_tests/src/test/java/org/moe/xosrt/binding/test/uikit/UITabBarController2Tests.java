@@ -15,17 +15,17 @@ import org.junit.Test;
 
 import tools.ConditionWait;
 import tools.ConditionWait.Condition;
-import ios.foundation.NSArray;
-import ios.foundation.NSOperationQueue;
-import ios.foundation.NSOperationQueue.Block_addOperationWithBlock;
-import ios.uikit.UIApplication;
-import ios.uikit.UIImage;
-import ios.uikit.UINavigationController;
-import ios.uikit.UIScreen;
-import ios.uikit.UITabBarController;
-import ios.uikit.UIViewController;
-import ios.uikit.UIWindow;
-import ios.uikit.protocol.UIApplicationDelegate;
+import apple.foundation.NSArray;
+import apple.foundation.NSOperationQueue;
+import apple.foundation.NSOperationQueue.Block_addOperationWithBlock;
+import apple.uikit.UIApplication;
+import apple.uikit.UIImage;
+import apple.uikit.UINavigationController;
+import apple.uikit.UIScreen;
+import apple.uikit.UITabBarController;
+import apple.uikit.UIViewController;
+import apple.uikit.UIWindow;
+import apple.uikit.protocol.UIApplicationDelegate;
 import static org.junit.Assert.assertTrue;
 
 public class UITabBarController2Tests {

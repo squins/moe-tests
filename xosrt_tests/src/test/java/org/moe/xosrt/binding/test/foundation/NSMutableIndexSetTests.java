@@ -1,17 +1,17 @@
 package org.moe.xosrt.binding.test.foundation;
 
-import org.moe.natj.general.ptr.impl.PtrFactory;
-
-import static org.junit.Assert.*;
-
-
-import ios.foundation.*;
-import ios.foundation.c.Foundation;
-import ios.foundation.struct.NSRange;
-
-import org.moe.xosrt.binding.test.foundation.Utils.XOSTest;
 import org.junit.Ignore;
 import org.junit.Test;
+import org.moe.natj.general.ptr.impl.PtrFactory;
+import org.moe.xosrt.binding.test.foundation.Utils.XOSTest;
+
+import apple.foundation.NSMutableArray;
+import apple.foundation.NSMutableIndexSet;
+import apple.foundation.NSString;
+import apple.foundation.c.Foundation;
+import apple.foundation.struct.NSRange;
+
+import static org.junit.Assert.assertTrue;
 
 //TODO: causes simulator crush
 @Ignore

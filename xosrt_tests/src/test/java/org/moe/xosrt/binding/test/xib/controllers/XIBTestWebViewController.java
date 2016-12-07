@@ -4,11 +4,11 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.foundation.NSBundle;
-import ios.foundation.NSURL;
-import ios.foundation.NSURLRequest;
-import ios.uikit.UIViewController;
-import ios.uikit.UIWebView;
+import apple.foundation.NSBundle;
+import apple.foundation.NSURL;
+import apple.foundation.NSURLRequest;
+import apple.uikit.UIViewController;
+import apple.uikit.UIWebView;
 
 public class XIBTestWebViewController extends UIViewController {
 

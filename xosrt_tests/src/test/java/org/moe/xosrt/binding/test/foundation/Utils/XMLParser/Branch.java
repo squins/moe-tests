@@ -4,9 +4,9 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.NSObject;
-import ios.foundation.NSMutableArray;
-import ios.foundation.NSString;
+import apple.NSObject;
+import apple.foundation.NSMutableArray;
+import apple.foundation.NSString;
 
 public class Branch extends NSObject {
 

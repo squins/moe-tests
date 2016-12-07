@@ -4,8 +4,8 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.foundation.*;
-import ios.uikit.*;
+import apple.foundation.*;
+import apple.uikit.*;
 
 public class TableViewCellController extends UITableViewCell {
 

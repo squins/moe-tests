@@ -4,9 +4,9 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.uikit.UIButton;
-import ios.uikit.UIColor;
-import ios.uikit.UIView;
+import apple.uikit.UIButton;
+import apple.uikit.UIColor;
+import apple.uikit.UIView;
 
 public class View extends UIView {
 

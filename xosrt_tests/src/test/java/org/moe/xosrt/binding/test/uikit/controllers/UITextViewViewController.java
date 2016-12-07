@@ -6,16 +6,16 @@ import org.moe.natj.general.ptr.NFloatPtr;
 import org.moe.natj.general.ptr.impl.PtrFactory;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.NSObject;
-import ios.coregraphics.c.CoreGraphics;
-import ios.coregraphics.struct.CGPoint;
-import ios.coregraphics.struct.CGRect;
-import ios.foundation.*;
-import ios.foundation.struct.NSRange;
-import ios.uikit.*;
-import ios.uikit.enums.NSTextAlignment;
-import ios.uikit.enums.UITextAlignment;
-import ios.uikit.protocol.UITextViewDelegate;
+import apple.NSObject;
+import apple.coregraphics.c.CoreGraphics;
+import apple.coregraphics.struct.CGPoint;
+import apple.coregraphics.struct.CGRect;
+import apple.foundation.*;
+import apple.foundation.struct.NSRange;
+import apple.uikit.*;
+import apple.uikit.enums.NSTextAlignment;
+import apple.uikit.enums.UITextAlignment;
+import apple.uikit.protocol.UITextViewDelegate;
 
 public class UITextViewViewController extends UIViewController implements UITextViewDelegate {
 

@@ -4,12 +4,12 @@ import org.moe.xosrt.binding.test.xib.controllers.XIBTestButtonLabel1ViewControl
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import ios.foundation.NSOperationQueue;
-import ios.uikit.UIApplication;
-import ios.uikit.UIScreen;
-import ios.uikit.UIViewController;
-import ios.uikit.UIWindow;
-import ios.uikit.protocol.UIApplicationDelegate;
+import apple.foundation.NSOperationQueue;
+import apple.uikit.UIApplication;
+import apple.uikit.UIScreen;
+import apple.uikit.UIViewController;
+import apple.uikit.UIWindow;
+import apple.uikit.protocol.UIApplicationDelegate;
 import tools.ConditionWait;
 
 import static org.junit.Assert.assertTrue;

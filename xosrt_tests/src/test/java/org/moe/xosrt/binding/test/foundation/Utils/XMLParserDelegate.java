@@ -4,19 +4,19 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.foundation.NSData;
-import ios.foundation.NSDictionary;
-import ios.foundation.NSError;
-import ios.foundation.NSMutableArray;
-import ios.NSObject;
-import ios.foundation.NSString;
-import ios.foundation.NSXMLParser;
+import apple.foundation.NSData;
+import apple.foundation.NSDictionary;
+import apple.foundation.NSError;
+import apple.foundation.NSMutableArray;
+import apple.NSObject;
+import apple.foundation.NSString;
+import apple.foundation.NSXMLParser;
 import org.moe.xosrt.binding.test.foundation.Utils.XMLParser.Branch;
 import org.moe.xosrt.binding.test.foundation.Utils.XMLParser.Leaf;
 import org.moe.xosrt.binding.test.foundation.Utils.XMLParser.Tree;
 import org.moe.xosrt.binding.test.foundation.Utils.XMLParser.Root;
 import org.moe.xosrt.binding.test.foundation.Utils.XMLParser.Stem;
-import ios.foundation.protocol.NSXMLParserDelegate;
+import apple.foundation.protocol.NSXMLParserDelegate;
 
 import static org.junit.Assert.assertTrue;
 

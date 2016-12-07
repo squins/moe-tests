@@ -10,12 +10,12 @@ import org.moe.natj.objc.ann.Selector;
 import org.moe.xosrt.binding.test.uikit.testhelpers.UINavCViewController1;
 import org.moe.xosrt.binding.test.uikit.testhelpers.UINavCViewController2;
 
-import ios.NSObject;
-import ios.coregraphics.c.CoreGraphics;
-import ios.coregraphics.struct.CGRect;
-import ios.foundation.*;
-import ios.uikit.*;
-import ios.uikit.protocol.UINavigationControllerDelegate;
+import apple.NSObject;
+import apple.coregraphics.c.CoreGraphics;
+import apple.coregraphics.struct.CGRect;
+import apple.foundation.*;
+import apple.uikit.*;
+import apple.uikit.protocol.UINavigationControllerDelegate;
 
 public class UINavigationCViewController extends UIViewController implements UINavigationControllerDelegate {
 

@@ -7,14 +7,20 @@ buildscript {
     repositories {
         mavenLocal()
         mavenCentral()
+        jcenter()
+		
 
         maven {
             url uri(System.getenv("MOE_HOME") + "/gradle")
         }
     }
+	
+	ext {
+    	multiOsEngineVersion = '1.2.5'
+	}
+	
     dependencies {
-        // MOE plugin
-        classpath 'org.moe.gradle:moeGradlePlugin:1.1.+'
+        classpath "org.multi-os-engine:moe-gradle:$multiOsEngineVersion"
     }
 }
 
@@ -45,7 +51,6 @@ moe {
     xcode.mainTarget = 'xosrt_tests'
     xcode.testTarget = 'xosrt_tests-Test'
     xcode.mainProductName = 'xosrt_tests'
-    xcode.testProductName = 'xosrt_tests-Test'
 }
 
 // Set dependencies

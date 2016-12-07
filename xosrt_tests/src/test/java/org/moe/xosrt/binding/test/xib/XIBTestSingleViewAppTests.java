@@ -1,10 +1,10 @@
 package org.moe.xosrt.binding.test.xib;
 
 import org.moe.xosrt.binding.test.xib.controllers.XIBTestSingleViewAppViewController;
-import ios.foundation.*;
-import ios.foundation.NSOperationQueue.Block_addOperationWithBlock;
-import ios.uikit.*;
-import ios.uikit.protocol.UIApplicationDelegate;
+import apple.foundation.*;
+import apple.foundation.NSOperationQueue.Block_addOperationWithBlock;
+import apple.uikit.*;
+import apple.uikit.protocol.UIApplicationDelegate;
 
 import org.junit.BeforeClass;
 import org.junit.Test;

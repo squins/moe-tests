@@ -6,14 +6,14 @@ import org.moe.natj.general.ptr.Ptr;
 import org.moe.natj.general.ptr.impl.PtrFactory;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.NSObject;
-import ios.coregraphics.c.CoreGraphics;
-import ios.coregraphics.struct.CGRect;
-import ios.foundation.*;
-import ios.foundation.c.Foundation;
-import ios.foundation.enums.Enums;
-import ios.uikit.*;
-import ios.uikit.protocol.UITabBarControllerDelegate;
+import apple.NSObject;
+import apple.coregraphics.c.CoreGraphics;
+import apple.coregraphics.struct.CGRect;
+import apple.foundation.*;
+import apple.foundation.c.Foundation;
+import apple.foundation.enums.Enums;
+import apple.uikit.*;
+import apple.uikit.protocol.UITabBarControllerDelegate;
 
 public class UITabBarControllerViewController extends UIViewController implements UITabBarControllerDelegate {
 

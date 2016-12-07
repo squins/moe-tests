@@ -7,15 +7,15 @@ import org.moe.natj.objc.ann.Selector;
 
 import org.moe.xosrt.binding.test.uikit.UITabBarController2Tests;
 
-import ios.coregraphics.c.CoreGraphics;
-import ios.uikit.UIButton;
-import ios.uikit.UIColor;
-import ios.uikit.UIScreen;
-import ios.uikit.UIView;
-import ios.uikit.UIViewController;
-import ios.uikit.enums.UIButtonType;
-import ios.uikit.enums.UIControlEvents;
-import ios.uikit.enums.UIControlState;
+import apple.coregraphics.c.CoreGraphics;
+import apple.uikit.UIButton;
+import apple.uikit.UIColor;
+import apple.uikit.UIScreen;
+import apple.uikit.UIView;
+import apple.uikit.UIViewController;
+import apple.uikit.enums.UIButtonType;
+import apple.uikit.enums.UIControlEvents;
+import apple.uikit.enums.UIControlState;
 
 public class UITabBarController2FourthViewController extends UIViewController {
 

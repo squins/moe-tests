@@ -4,13 +4,13 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.NSObject;
-import ios.uikit.UINavigationController;
-import ios.uikit.UIResponder;
-import ios.uikit.UIView;
-import ios.uikit.UIViewController;
-import ios.uikit.UIWindow;
-import ios.uikit.protocol.UIApplicationDelegate;
+import apple.NSObject;
+import apple.uikit.UINavigationController;
+import apple.uikit.UIResponder;
+import apple.uikit.UIView;
+import apple.uikit.UIViewController;
+import apple.uikit.UIWindow;
+import apple.uikit.protocol.UIApplicationDelegate;
 
 public class DummyAppDelegate extends UIViewController implements UIApplicationDelegate {
 

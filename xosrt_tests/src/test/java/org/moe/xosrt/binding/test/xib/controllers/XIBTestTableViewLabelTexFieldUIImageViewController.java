@@ -8,16 +8,16 @@ import org.moe.natj.objc.ObjCObject;
 import org.moe.natj.objc.SEL;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.NSObject;
-import ios.coregraphics.c.CoreGraphics;
-import ios.coregraphics.struct.CGPoint;
-import ios.coregraphics.struct.CGRect;
-import ios.foundation.*;
-import ios.uikit.*;
-import ios.uikit.enums.UITableViewCellStyle;
-import ios.uikit.protocol.UITableViewDataSource;
-import ios.uikit.protocol.UITableViewDelegate;
-import ios.uikit.protocol.UITextInputDelegate;
+import apple.NSObject;
+import apple.coregraphics.c.CoreGraphics;
+import apple.coregraphics.struct.CGPoint;
+import apple.coregraphics.struct.CGRect;
+import apple.foundation.*;
+import apple.uikit.*;
+import apple.uikit.enums.UITableViewCellStyle;
+import apple.uikit.protocol.UITableViewDataSource;
+import apple.uikit.protocol.UITableViewDelegate;
+import apple.uikit.protocol.UITextInputDelegate;
 
 public class XIBTestTableViewLabelTexFieldUIImageViewController extends UIViewController implements
         UITableViewDelegate, UITableViewDataSource, UITextInputDelegate {

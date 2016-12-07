@@ -7,13 +7,13 @@ import org.moe.natj.general.ptr.VoidPtr;
 import org.moe.natj.objc.SEL;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.coregraphics.c.CoreGraphics;
-import ios.coregraphics.struct.CGRect;
-import ios.foundation.NSNumber;
-import ios.quartzcore.CALayer;
-import ios.uikit.UIColor;
-import ios.uikit.UIView;
-import ios.uikit.UIViewController;
+import apple.coregraphics.c.CoreGraphics;
+import apple.coregraphics.struct.CGRect;
+import apple.foundation.NSNumber;
+import apple.quartzcore.CALayer;
+import apple.uikit.UIColor;
+import apple.uikit.UIView;
+import apple.uikit.UIViewController;
 
 public class CALayerTestViewController extends UIViewController {
 

@@ -2,9 +2,9 @@ package org.moe.xosrt.binding.test.foundation;
 
 import static org.junit.Assert.*;
 
-import ios.foundation.*;
-import ios.foundation.c.Foundation;
-import ios.foundation.enums.NSCalendarUnit;
+import apple.foundation.*;
+import apple.foundation.c.Foundation;
+import apple.foundation.enums.NSCalendarUnit;
 
 import org.moe.xosrt.binding.test.foundation.Utils.XOSTest;
 import org.junit.Test;

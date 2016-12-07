@@ -3,8 +3,8 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import java.lang.Object;import java.lang.Override;import ios.NSObject;
-import ios.foundation.*;
+import java.lang.Object;import java.lang.Override;import apple.NSObject;
+import apple.foundation.*;
 
 public class TestObject extends NSObject {
     public NSString field;

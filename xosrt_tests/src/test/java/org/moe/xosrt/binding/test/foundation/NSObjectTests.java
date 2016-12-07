@@ -1,9 +1,9 @@
 package org.moe.xosrt.binding.test.foundation;
 
 import static org.junit.Assert.*;
-import ios.NSObject;
-import ios.foundation.NSString;
-import ios.foundation.c.Foundation;
+import apple.NSObject;
+import apple.foundation.NSString;
+import apple.foundation.c.Foundation;
 
 import org.moe.xosrt.binding.test.foundation.Utils.XOSTest;
 import org.junit.Test;

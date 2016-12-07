@@ -3,12 +3,12 @@ package org.moe.xosrt.binding.test.foundation;
 import org.moe.natj.general.ptr.CharPtr;
 import org.moe.natj.general.ptr.impl.PtrFactory;
 
-import ios.foundation.NSData;
-import ios.foundation.NSString;
-import ios.foundation.c.Foundation;
-import ios.foundation.enums.Enums;
-import ios.foundation.enums.NSDataSearchOptions;
-import ios.foundation.struct.NSRange;
+import apple.foundation.NSData;
+import apple.foundation.NSString;
+import apple.foundation.c.Foundation;
+import apple.foundation.enums.Enums;
+import apple.foundation.enums.NSDataSearchOptions;
+import apple.foundation.struct.NSRange;
 
 import org.moe.xosrt.binding.test.foundation.Utils.XOSTest;
 import org.junit.Ignore;

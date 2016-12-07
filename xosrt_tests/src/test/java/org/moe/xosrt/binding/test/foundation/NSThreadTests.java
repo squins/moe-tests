@@ -4,8 +4,8 @@ import org.moe.natj.objc.SEL;
 
 import static org.junit.Assert.*;
 
-import ios.NSObject;
-import ios.foundation.*;
+import apple.NSObject;
+import apple.foundation.*;
 import org.moe.xosrt.binding.test.foundation.Utils.ErrorTestObject;
 import org.moe.xosrt.binding.test.foundation.Utils.ThreadTestTarget;
 

@@ -4,11 +4,11 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.coregraphics.c.CoreGraphics;
-import ios.uikit.UIColor;
-import ios.uikit.UILabel;
-import ios.uikit.UIView;
-import ios.uikit.UIViewController;
+import apple.coregraphics.c.CoreGraphics;
+import apple.uikit.UIColor;
+import apple.uikit.UILabel;
+import apple.uikit.UIView;
+import apple.uikit.UIViewController;
 
 public class UISplitRightViewController extends UIViewController{
 

@@ -1,20 +1,19 @@
 package org.moe.xosrt.binding.test.foundation;
 
-import org.moe.natj.general.ptr.BoolPtr;
-import org.moe.natj.general.ptr.impl.PtrFactory;
-
-import static org.junit.Assert.*;
-import ios.foundation.*;
-
-import org.moe.xosrt.binding.test.foundation.Utils.TestFileManagerDelegate;
-
-import ios.foundation.protocol.NSFileManagerDelegate;
-
-import org.moe.xosrt.binding.test.foundation.Utils.XOSTest;
 import org.junit.After;
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
+import org.moe.natj.general.ptr.BoolPtr;
+import org.moe.natj.general.ptr.impl.PtrFactory;
+import org.moe.xosrt.binding.test.foundation.Utils.TestFileManagerDelegate;
+import org.moe.xosrt.binding.test.foundation.Utils.XOSTest;
+
+import apple.foundation.NSBundle;
+import apple.foundation.NSData;
+import apple.foundation.NSFileManager;
+import apple.foundation.protocol.NSFileManagerDelegate;
+
+import static org.junit.Assert.assertTrue;
 
 public class NSFileManagerTests extends XOSTest{
 

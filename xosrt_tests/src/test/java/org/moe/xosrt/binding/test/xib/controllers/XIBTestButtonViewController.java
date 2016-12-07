@@ -4,9 +4,9 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.uikit.*;
-import ios.uikit.enums.UIControlEvents;
-import ios.uikit.enums.UIControlState;
+import apple.uikit.*;
+import apple.uikit.enums.UIControlEvents;
+import apple.uikit.enums.UIControlState;
 
 public class XIBTestButtonViewController extends UIViewController {
 

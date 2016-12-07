@@ -10,22 +10,22 @@ import org.moe.natj.objc.ann.ObjCBlock;
 import org.moe.natj.objc.ann.Selector;
 import org.moe.natj.objc.map.ObjCObjectMapper;
 
-import ios.coregraphics.struct.CGRect;
-import ios.foundation.NSArray;
-import ios.foundation.NSCoder;
-import ios.foundation.NSData;
-import ios.foundation.NSDictionary;
-import ios.foundation.NSError;
-import ios.foundation.NSURL;
-import ios.foundation.NSUserActivity;
-import ios.uikit.UIApplication;
-import ios.uikit.UILocalNotification;
-import ios.uikit.UIResponder;
-import ios.uikit.UIScreen;
-import ios.uikit.UIUserNotificationSettings;
-import ios.uikit.UIViewController;
-import ios.uikit.UIWindow;
-import ios.uikit.protocol.UIApplicationDelegate;
+import apple.coregraphics.struct.CGRect;
+import apple.foundation.NSArray;
+import apple.foundation.NSCoder;
+import apple.foundation.NSData;
+import apple.foundation.NSDictionary;
+import apple.foundation.NSError;
+import apple.foundation.NSURL;
+import apple.foundation.NSUserActivity;
+import apple.uikit.UIApplication;
+import apple.uikit.UILocalNotification;
+import apple.uikit.UIResponder;
+import apple.uikit.UIScreen;
+import apple.uikit.UIUserNotificationSettings;
+import apple.uikit.UIViewController;
+import apple.uikit.UIWindow;
+import apple.uikit.protocol.UIApplicationDelegate;
 
 public class AppDelegate extends UIResponder implements UIApplicationDelegate {
 

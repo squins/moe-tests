@@ -2,11 +2,11 @@ package org.moe.xosrt.binding.test.uikit;
 
 import static org.junit.Assert.*;
 
-import ios.coregraphics.c.CoreGraphics;
-import ios.coregraphics.enums.CGRectEdge;
-import ios.coregraphics.struct.CGPoint;
-import ios.coregraphics.struct.CGRect;
-import ios.coregraphics.struct.CGSize;
+import apple.coregraphics.c.CoreGraphics;
+import apple.coregraphics.enums.CGRectEdge;
+import apple.coregraphics.struct.CGPoint;
+import apple.coregraphics.struct.CGRect;
+import apple.coregraphics.struct.CGSize;
 
 import org.junit.Test;
 

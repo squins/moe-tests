@@ -5,11 +5,11 @@ import org.moe.natj.general.NatJ;
 import org.moe.natj.general.Pointer;
 import org.moe.natj.objc.ann.Selector;
 
-import ios.uikit.UIButton;
-import ios.uikit.UILabel;
-import ios.uikit.UIViewController;
-import ios.uikit.enums.UIControlEvents;
-import ios.uikit.enums.UIControlState;
+import apple.uikit.UIButton;
+import apple.uikit.UILabel;
+import apple.uikit.UIViewController;
+import apple.uikit.enums.UIControlEvents;
+import apple.uikit.enums.UIControlState;
 
 public class XIBTestButtonLabel1ViewController extends UIViewController {
 
